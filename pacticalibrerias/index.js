@@ -9,3 +9,4 @@ const sum2 = mat.suma(4,5)
 const multi = mat.multiplicacion(sum1,sum2)
 // muestro el resultado en la consola en color verde
 console.log(chalk.green(multi));
+
