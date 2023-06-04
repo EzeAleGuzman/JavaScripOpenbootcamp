@@ -1,0 +1,23 @@
+.rompecabezas {
+    padding: 0;
+    margin-right: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+   
+}
+
+img {
+    width: 103%;
+    height: auto; 
+}
+
+.seccion {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.cuadricula {
+    border: solid black 2px;
+}
